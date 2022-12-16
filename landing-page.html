@@ -29,7 +29,7 @@
                         <div class="text-wrapper">
                             <div class="lg-font">Integrated</div>
                             <div class="lg-font bold">Marketing Services</div>
-                            <div class="body-text">We turn your marketing plans into action by building on your ideas and executing initiatives alongside you and your team.  Get a complete department that can pivot to different area of marketing based on your needs.</div>
+                            <div class="body-text-p">We turn your marketing plans into action by building on your ideas and executing initiatives alongside you and your team.  Get a complete department that can pivot to different areas of marketing based on your needs.</div>
                         </div>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                     </div>
                     <div class="container-50">
                         <div class="text-wrapper3">
-                            <div class="md-font"><span class="bold">The best way</span> to build a marketing team</div>
+                            <div class="title md-font"><span class="bold">The best way</span> to build a marketing team</div>
                             <div class="body-text">With EBQ, you're not just hiring a marketing specialist. You're getting an entire marketing department at a fraction of the cost and effort of hiring internally.</div>
                             <div class="body-text">For each project, we provide: a Success Manager to drive high-level strategy, a Project Manager to oversee day-to-day operations, and one or more Specialist working diligently to amplify your brand.</div>
                         </div>
@@ -66,7 +66,7 @@
             <section>
                 <div id="footer">
                     <div id="footer-text">
-                        <div class="md-font">Looking to take your <span class="bold">marketing to the next level?</span>
+                        <div class="ft-font">Looking to take your <span class="bold">marketing to the next level?</span>
                         </div>
                     </div>
                     <div class="btn-wrapper">
@@ -75,5 +75,13 @@
                 </div>
             </section>
         </div>
+        <script>
+            const ebqBtn = document.getElementsByClassName('contact-btn');
+            for (let i = 0; i < ebqBtn.length; i++) {
+                ebqBtn[i].addEventListener('click', function () {
+                   window.location = 'https://ebq.com/contact-us/'
+                });
+            }
+        </script>
     </body>
 </html>
