@@ -1,0 +1,238 @@
+html {
+    margin: 0;
+}
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+#main-container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section:nth-of-type(1) {
+    background-color: #e7f1ff;
+}
+#header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#logo-container {
+    padding: 20px 0 0 45px;
+}
+#logo-wrapper {
+    display: flex;
+    justify-content: center;
+}
+#ebq-logo {
+    height: 100px;
+}
+.btn-container {
+    padding: 20px 50px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn-wrapper {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-btn {
+    background-color: rgb(48, 107, 232);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.contact-btn-text {
+    padding: 13px 35px 12px 35px;
+    font-size: 14px;
+}
+.container-100 {
+    display: flex;
+    width: 100%;
+}
+.container-50 {
+    display: flex;
+    width: 50%;
+}
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 7em 1em 6em 10em;
+}
+.text-wrapper2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10em 1.5em 6em 10em;
+}
+.text-wrapper3 {
+    display: flex;
+    flex-direction: column;
+    padding: 9em 6.5em 13em 3em;
+}
+#img-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#img-wrapper2 {
+    width: 100%;
+    padding: 5em 6em 8em 10em;
+}
+.lg-font {
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.1em;
+}
+.md-font {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.1em;
+}
+.bold {
+    font-weight: bold;
+}
+.body-text {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 1.3em;
+}
+#tools-img {
+    width: 100%;
+    height: 100%;
+    padding-top: 110px;
+    padding-left: 50px;
+    padding-right: 90px;
+}
+#dept-img {
+    width: 100%;
+}
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #1542a9;
+    padding-top: 130px;
+    padding-bottom: 7em;
+
+}
+#footer-text {
+    padding-bottom: 60px;
+    color: white;
+}
+.yellow-bg {
+    background-color: #ffbf5e;
+}
+.blue-text {
+    color: #1542a9;
+}
+
+@media screen and (max-width: 75em) {
+    #img-wrapper2 {
+        padding: 6em 3em 8em 10em;
+    }
+}
+
+
+
+
+/*TABLET*/
+
+@media screen and (max-width: 65em) {
+    .btn-container {
+        padding: 10px 20px 0 0;
+    }
+    #logo-container {
+        padding: 10px 0 0 15px;
+    }
+    .container-50 {
+        width: 100%;
+    }
+    .container-100 {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-wrapper {
+        padding: 6em 1.5em;
+        text-align: center;
+    }
+    .text-wrapper2 {
+        padding: 1.5em 1.5em 3.5em;
+        text-align: center;
+    }
+    #img-wrapper {
+        justify-content: center;
+        width: 100%;
+    }
+    #tools-img {
+        padding: 5em 10em;
+        transform: none;
+    }
+    #img-wrapper2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5em 10em;
+    }
+    .text-wrapper3 {
+        padding: 0 1.5em;
+        text-align: center;
+    }
+    #dept-img {
+        height: 100%;
+        transform: none;
+    }
+    #footer {
+        padding-top: 110px;
+        padding-bottom: 6em;
+        text-align: center;
+    }
+    #footer-text {
+        padding-bottom: 50px;
+        padding-right: 1.5em;
+        padding-left: 1.5em;
+    }
+    .body-text {
+        margin-top: 35px;
+    }
+}
+
+
+
+
+
+
+/*MOBILE*/
+
+@media screen and (max-width: 35em) {
+    .text-wrapper2 {
+        display: flex;
+        flex-direction: column;
+        padding: 3.5em 1.5em;
+        text-align: center;
+    }
+    #tools-img {
+        width: 100%;
+        height: 100%;
+        padding: 5em 1.5em 0 1.5em;
+        transform: none;
+    }
+    #img-wrapper2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4em 1.5em 5em 1.5em;
+    }
+
+}
